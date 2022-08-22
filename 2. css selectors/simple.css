@@ -1,0 +1,49 @@
+p {
+    color : red;
+}
+
+
+
+
+/*  UNDERSTANDING CSS SELECTORS  */
+
+/* for ID use # in css  */
+
+#para-tag {
+    color : blue;
+}
+
+
+
+/* for CLASS just in case use period .(dot) */
+
+
+.my-para {
+    color: yellow;
+}
+
+
+/*  accessing inside the div */
+
+.my-div p {
+    color : pink;
+}
+
+.my-div .my-div2 p {
+    color : red;
+}
+
+
+/* accessing all the div elements */
+
+
+.mydiv div p{
+    color : black;
+}
+
+
+/*  using + selector for accessing element after the div  */
+.mydiv div + h3 {
+    background-color : black;
+    color : white;
+}

@@ -1,0 +1,38 @@
+
+body {
+    display: flex;
+    height: 100vh;
+    margin : 0px;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
+}
+
+
+/*  flex allows us to allign all in a row  */
+/*  the cross is column or y axis  */
+
+
+.mydiv1 {
+    background-color: aqua;
+    border : 3px solid black;
+    padding : 5px 10px 5px 10px ;
+    margin : 5px 10px 5px 10px ;
+    
+}
+
+
+/* customizin the flex container */
+
+.mydiv2 {
+    background-color: aqua;
+    border : 3px solid black;
+    padding : 5px 10px 5px 10px ;
+    margin : 5px 10px 5px 10px ;
+    flex : 2
+    
+}
+
+p {
+    background-color: red;
+}

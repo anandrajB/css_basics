@@ -1,0 +1,18 @@
+p {
+    color : red
+}
+
+/* display inline for div content  */
+
+
+
+.my-div p {
+    color :  black;
+    display : inline;
+    /* other example */
+    /*  display :  block , inline-block , none  */
+}   
+
+/*  now the above css which shows the p tag in same line with default spacing */
+
+

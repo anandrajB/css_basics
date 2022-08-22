@@ -1,0 +1,83 @@
+
+/*  please uncomment the code below  */
+
+
+                        /*  CASE 1  */
+
+
+
+/* html {
+    background-color: black;
+} */
+
+/* EXAMPLE 1 using height and width */
+
+
+/* body {
+    background-color : aqua;
+    height : 100%;
+    width: 50%;
+    margin: auto;
+} */
+
+
+/* EXAMPLE 2 : using vertical height */
+
+/*  the vh takes the entire screen height and width respectively */
+
+/* body {
+    background-color : aqua;
+    height : 100vh;
+    width: 50vw;
+    margin: auto;
+} */
+
+
+/*  EXAMPLE 3 : using pixels  : static and fixed */
+
+/* 
+body {
+    background-color : aqua;
+    height : 100px;
+    width: 50px;
+    margin: auto;
+} */
+
+
+/* .mydiv {
+    background-color:  yellow;
+}
+
+.mydiv2 {
+    background-color : green;
+} */
+
+
+
+
+                        /*  CASE 2  */
+
+
+/*  using rem and em */
+
+
+html {
+    background-color: black;
+}
+
+
+body {
+    background-color: aqua;
+    font-size : 15px;
+}
+
+
+.mydiv {
+    height : 5em;
+    background-color:  yellow;
+}
+
+.mydiv2 {
+    height : 5em;
+    background-color : green;
+}

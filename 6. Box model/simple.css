@@ -1,0 +1,24 @@
+.mydiv1 {
+    background-color: orange;
+    /* padding : 5px; */
+    border : 1px solid black;
+    /* custom border */
+
+    /* border-right : 10px; */
+
+    /* another   */ 
+    padding : 5px 10px 5px 10px ;
+    margin : 10px
+    /* top , right , bottom  , left   */
+}
+
+/*  padding is the space between the content and outside of the box */
+
+/*  margin is outside of the box */
+
+
+
+
+p {
+    background-color:  red;
+}

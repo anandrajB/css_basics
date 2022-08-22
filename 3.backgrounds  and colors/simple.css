@@ -1,0 +1,47 @@
+
+
+/*  you can see the p tag color gets changed */
+
+
+.mydiv div p {
+    color : red
+}
+
+
+/*  using rgb color combination  */
+
+/* accessing the h1 inside the div element  */
+
+.mydiv div h1 {
+    color : rgb(0, 0,0)
+}
+
+
+/*  using opacity in rgb */
+
+.mydiv div h1 {
+    color : rgb(0, 0, 0, 0.5)
+}
+
+
+
+/* using hex code for colors and background colors  */
+
+/* hex codes are case insensitive  */
+
+.div3 {
+    color : #FFFFFF
+}
+
+
+/*  NOTE  : each 2 digits represents each color as FF , FF , FF */
+
+
+
+/*  adding opacity  */
+/*  opacity can be added from 0 to  99 representing the opacity value at hex values */
+
+.div3 {
+    color : #FFFFFF99;
+    background-color : black;
+}
