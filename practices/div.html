@@ -1,28 +1,33 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
-</head>
-    <body>
-        <div class="red-square"></div>
-        <div class="green-circle"></div>
-      </body>
+  </head>
+
+  <body>
+    <div class="red-square" ></div>
+    <div class="green-circle" ></div>
+  </body>
 </html>
 
-
 <style>
-    .red-square{
-        width: 100px;
-        height: 100px;
-        background-color: red;
-    }
+  .red-square {
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
 
-    .green-circle{
-        background-color: green;
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-    }
+  .green-circle {
+    z-index: 2;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
 </style>

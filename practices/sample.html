@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Urbanist" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="rectangle">
+        <img
+          class="logo"
+          src="https://krediq-storage-bucket.blr1.cdn.digitaloceanspaces.com/media/TFM.png"
+          alt="Logo"
+        />
+        <div class="otp-content">
+          <p class="title">OTP verification</p>
+          <p class="user">Dear User</p>
+          <p class="subject">Your One-Time Password (OTP) for verification is:</p>
+          <div class="otp-digits">
+            <div class="otp-digit-1">
+              <p class="digit-1">1</p>
+            </div>
+            <div class="otp-digit-2">
+              <p class="digit-2">2</p>
+            </div>
+            <div class="otp-digit-3">
+              <p class="digit-3">3</p>
+            </div>
+            <div class="otp-digit-4">
+              <p class="digit-4">4</p>
+            </div>
+          </div>
+          <p class = 'action'>Please use this OTP to proceed with your action</p>
+          <p class = 'terms'>Terms & Condition <span class = 'terms-span'>&sdot;</span> Privacy Policy</p>
+        </div>
+      </div>
+      <div class="social-icons">
+        <p class="copyright">© 2023 Venzo Technologies Pvt Ltd. All Rights Reserved.</p>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-whatsapp"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  body {
+    font-family: 'Urbanist';
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .rectangle {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    background-color: #333333;
+    border-radius: 8px;
+  }
+
+  .terms-span{
+    color: red;
+    font-size: 18px;
+  }
+
+  .logo {
+    width: 54.02px;
+    height: 61.61px;
+    margin-top: 20px;
+  }
+
+  .otp-content {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    top: 25%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+
+  .title {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .terms {
+  position: absolute;
+  bottom: -18px;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+  .user {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 25px;
+  }
+
+  .subject {
+    font-size: 18px;
+    font-weight: 500;
+    color: #8d8d98;
+    text-align: left;
+    margin-left: 25px;
+  }
+
+  .otp-digits {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .action{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #8D8D98;
+    margin-top : 50px;
+  }
+
+  .otp-digit-1 , .otp-digit-2 , .otp-digit-3 , .otp-digit-4{ 
+    width: 80px;
+    height: 80px;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+
+  .digit-1 , .digit-2  , .digit-3 , .digit-4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600px;
+    margin-top: 20px;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    position : absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    align-items: center;
+  }
+
+  .copyright {
+    color: #8D8D98;
+    font-size: 18px;
+    font-weight: 500;
+}
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top : 10px;
+  }
+
+  .fa {
+  font-size: 24px;
+  margin: 0 10px;
+}
+</style>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <style>
+        body{
+            margin: 0;
+        }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .col-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4e6acb;
+        height: 100vh;
+        width: 50%;
+      }
+
+      .m-logo {
+        height: 300px;
+      }
+      .s-logo{
+        height: 70px;
+      }
+
+      .col-2 {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-1">
+          <img
+            class="m-logo"
+            src="https://krediq-beta.netlify.app/static/media/loginIllustration.6a7475e3.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="col-2">
+          <img
+          class = "s-logo"
+            src="https://krediq-beta.netlify.app/static/media/Krediq_Logo.bed79335.svg"
+            alt=""
+          />
+          <div id="London" class="city">
+            <h2>London</h2>
+            <p>London is the capital of England.</p>
+          </div>
+          
+          <div id="Paris" class="city" style="display:none">
+            <h2>Paris</h2>
+            <p>Paris is the capital of France.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
